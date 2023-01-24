@@ -33,14 +33,10 @@ class Page {
         this.items = []
         this.pageSize = pageSize
     }
+    add(newObject) {
+        this.items.push(newObject);
+}
 }
 
 
-let currentPage=0
-buildTable() {
-for(currentPage*Page.pageSize; i>= (currentPage*Page.pageSize) + pageSize; i++){
-    let tr = document.createElement("tr");
-    let td = document.createElement("td");
-}
 
-}
