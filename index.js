@@ -38,5 +38,12 @@ class Page {
 }
 }
 
+let current_page=0;
 
+function CreatePage(){
+	for (let i=(current_page*p.pageSize); i<(current_page*p.pageSize)+p.pageSize;i++){
+		
+       
+	}
+}
 
